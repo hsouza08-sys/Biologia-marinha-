@@ -91,4 +91,39 @@ footer {
     padding: 25px;
     margin-top: 30px;
 }
-```
+```css
+/* CARDS DOS ANIMAIS */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: rgba(0, 31, 63, 0.8);
+    border: 2px solid #48cae4;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    background-color: rgba(0, 119, 182, 0.9);
+}
+
+.animal-icon {
+    font-size: 60px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 16px;
+}
